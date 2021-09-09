@@ -5,9 +5,9 @@ export const homeObjOne = {
     lighTextDesc: true,
     darkText: false,
     topLine: 'Main Idea',
-    headline: 'Decode Ideas Break-up the Potentials',
+    headline: 'Decode Ideas and Generate Innovation',
     description: 'There are so many prospects discovered with their big chances to executed as something great. Totally combined innovation and knowledge to perform on the pitch.',
-    buttonLabel: 'Get Started',
+    buttonLabel: `Let's Started!`,
     imgStart: true,
     img: require('../../images/svg-14.svg').default,
     alt: 'jump on the screen',
@@ -35,14 +35,14 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'services',
+    id: 'gallery',
     lightBg: false,
     lightText: true,
     lighTextDesc: true,
     darkText: false,
-    topLine: 'Main Idea',
-    headline: 'Decode Ideas & Break the Potentials',
-    description: 'There is so many prospects i have seen with their big chances to executed as something great. Totally combined my quality and knowledge to perform on the pitch.',
+    topLine: 'Portfolio',
+    headline: 'Now You Landing On to Project Gallery',
+    description: `Be pleasure & let it flow on your mind while enjoying with all the projects i have developed. Will your next project be placed here soon ? Brum.. Brumm.. Five, Four, Three, Two, One ... Here We Go !`,
     buttonLabel: 'Explore More',
     imgStart: true,
     img: require('../../images/svg-13.svg').default,
@@ -52,36 +52,18 @@ export const homeObjThree = {
     primary: true
 };
 
-export const homeObjFour = {
-    id: 'discover',
-    lightBg: false,
-    lightText: true,
-    lighTextDesc: true,
-    darkText: false,
-    topLine: 'Main Idea',
-    headline: 'Decode Ideas Break-up the Potentials',
-    description: 'There are so many prospects discovered with their big chances to executed as something great. Totally combined innovation and knowledge to perform on the pitch.',
-    buttonLabel: 'Get Started',
-    imgStart: false,
-    img: require('../../images/svg-4.svg').default,
-    alt: 'jump on the screen',
-    white: false,
-    dark: false,
-    primary: true
-};
-
 export const homeObjFive = {
-    id: 'about',
+    id: 'goals',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     darkText: true,
-    topLine: 'Hello world!',
-    headline: `I'm Programmer Jaydane Khalid`,
-    description: `I am 18 years old with 3 year experiences as Software Engineer & Web Developer. Extremely motivated to constantly grow professionally, I would like to establish a career path with improvement on my skills and develop my knowledge to create a better result`,
+    topLine: 'TARGET',
+    headline: `Let's Reach More Success Goals Together`,
+    description: `First of all, let's establish a good cooperative relationship between us and then pursue achievement after achievement until a big dream is achieved that has a positive impact on all parties`,
     buttonLabel: 'Discovery',
-    imgStart: true,
-    img: require('../../images/svg-1.svg').default,
+    imgStart: false,
+    img: require('../../images/svg-16.svg').default,
     alt: 'profile',
     white: true,
     dark: true,
@@ -89,13 +71,14 @@ export const homeObjFive = {
 };
 
 export const homeObjSix = {
-    id: 'services',
+    id: 'contact',
     lightBg: false,
     lightText: true,
     lighTextDesc: true,
     darkText: false,
     topLine: 'Contact Us',
-    headline: 'Feel Free to Get Talk Each Other ...',
+    headline: 'Feel Free to Talk With Me ...',
+    description: 'Contact me as soon as possible if you are hiring or wanted to take commitment negotiations contract for some Full / Part time project with me, and surely I am willing to receive a side project from you too! ',
     buttonLabel: 'Say Hello!',
     imgStart: true,
     img: require('../../images/svg-2.svg').default,

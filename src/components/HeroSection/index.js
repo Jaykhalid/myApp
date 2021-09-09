@@ -33,6 +33,8 @@ import { HeroContainer, HeroBg, VideoBg,
                     <Button to='about' 
                      onMouseEnter={onHover}
                      onMouseLeave={onHover}
+                     smooth={true} duration={500} 
+                     spy={true} exact='true' offset={-80}
                     >
                         Check This Out 
                         { hover ? <ArrowForward /> : <ArrowRight /> }
